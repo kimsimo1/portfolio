@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {border: 3px solid darkorange;
+border-radius: 5px;
+padding: 5px;
+margin: 5px;}
+header, h1 {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+a:link, a:visited {text-decoration: none;
+}
+header {
+    padding-left: 5px;
+}
+
+.logo {width: 5%}
+
+.imgshadowed {
+    box-shadow: 10px 10px 3px darkorange;
+   
+}
+
+
+
+.carousel-img {
+    max-width: 75%; /* Adjust size as needed */
+    height: auto; /* Keep aspect ratio */
+    margin: auto; /* Center image */
+    display: block;
+}
+
+
+/*header {
+    background-image: url('view.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5); 
+    background-blend-mode: overlay;
+}*/
+
+
+.carousel { overflow: hidden; padding-bottom: 6rem; }
+.carousel-caption { top: 100%; }
+.carousel-inner { overflow: visible; }
+.carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
+
+.myphoto {margin-bottom: 5em;}
+
+.navbar-brand {font-weight: bold;
+color: darkorange;}
+@media only screen and (max-width: 600px) {
+    .carousel { overflow: hidden; padding-bottom: 9rem; }
+.carousel-caption { top: 100%; }
+.carousel-inner { overflow: visible; }
+.carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
+    }
+  }
