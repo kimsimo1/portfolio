@@ -58,6 +58,7 @@ header {
 
 .navbar-brand {font-weight: bold;
 color: darkorange;}
+
 @media only screen and (max-width: 600px) {
     .carousel { overflow: hidden; padding-bottom: 9rem; }
 .carousel-caption { top: 100%; }
