@@ -12,9 +12,7 @@ header, h1 {
   }
   
 body {font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    
 }
 a:link, a:visited {text-decoration: none;
 }
@@ -46,18 +44,6 @@ header {
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.5); 
     background-blend-mode: overlay;
-}*/
-
-
-.carousel { overflow: hidden; padding-bottom: 6rem; }
-.carousel-caption { top: 100%; }
-.carousel-inner { overflow: visible; }
-.carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
-
-.myphoto {margin-bottom: 5em;}
-
-.navbar-brand {font-weight: bold;
-color: darkorange;}
 
 @media only screen and (max-width: 600px) {
     .carousel { overflow: hidden; padding-bottom: 9rem; }
@@ -65,4 +51,19 @@ color: darkorange;}
 .carousel-inner { overflow: visible; }
 .carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
     }
-  }
+
+.carousel { overflow: hidden; padding-bottom: 6rem; }
+.carousel-caption { top: 100%; }
+.carousel-inner { overflow: visible; }
+.carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
+}*/
+
+.myphoto {margin-bottom: 5em;}
+
+.navbar-brand {font-weight: bold;
+color: darkorange;}
+
+
+  
+
+ 
